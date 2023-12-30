@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  height: 100vh;
+  display: flex;
+}
+article {
+  height: 500px;
+  width: 600px;
+  background-color: white;
+  border-radius: 16px;
+  margin: auto;
+  display: flex;
+}
+div > img {
+  height: 100%;
+  width: 300px;
+  border-radius: 16px 0 0 16px;
+  object-fit: cover;
+}
+.A2 {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.p {
+  margin-bottom: 22px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.t {
+  margin-bottom: 22px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+}
+p {
+  margin-bottom: 22px;
+  font-size: 12px;
+  line-height: 24px;
+}
+h2 {
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: hsl(158, 36%, 37%);
+}
+.prix {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: black;
+}
+button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+button img {
+  width: 18px;
+  height: 18px;
+}
